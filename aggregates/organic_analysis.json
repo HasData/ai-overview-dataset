@@ -1,0 +1,391 @@
+{
+ "second_pass_rows": 1200,
+ "overlap": {
+  "total": {
+   "answers": 805,
+   "answers_top10": 730,
+   "citations": 3776,
+   "cit_top10": 2181,
+   "cit_11_20": 744,
+   "cit_21_50": 368,
+   "cit_absent": 483
+  },
+  "answers_top10_share": 0.907,
+  "citations_top10_share": 0.578,
+  "citations_absent_share": 0.128,
+  "position_histogram": {
+   "1": 413,
+   "2": 352,
+   "3": 310,
+   "4": 261,
+   "5": 222,
+   "6": 244,
+   "7": 190,
+   "8": 126,
+   "9": 62,
+   "10": 1,
+   "11-20": 744,
+   "21-50": 368,
+   "absent": 483
+  },
+  "per_intent": {
+   "comparison": {
+    "answers": 96,
+    "answers_top10": 96,
+    "citations": 503,
+    "cit_top10": 334,
+    "cit_11_20": 113,
+    "cit_21_50": 36,
+    "cit_absent": 20,
+    "answers_top10_share": 1.0
+   },
+   "diy": {
+    "answers": 83,
+    "answers_top10": 58,
+    "citations": 272,
+    "cit_top10": 111,
+    "cit_11_20": 44,
+    "cit_21_50": 26,
+    "cit_absent": 91,
+    "answers_top10_share": 0.699
+   },
+   "events": {
+    "answers": 75,
+    "answers_top10": 71,
+    "citations": 287,
+    "cit_top10": 162,
+    "cit_11_20": 44,
+    "cit_21_50": 16,
+    "cit_absent": 65,
+    "answers_top10_share": 0.947
+   },
+   "howto": {
+    "answers": 90,
+    "answers_top10": 74,
+    "citations": 284,
+    "cit_top10": 139,
+    "cit_11_20": 61,
+    "cit_21_50": 16,
+    "cit_absent": 68,
+    "answers_top10_share": 0.822
+   },
+   "informational": {
+    "answers": 97,
+    "answers_top10": 95,
+    "citations": 552,
+    "cit_top10": 313,
+    "cit_11_20": 116,
+    "cit_21_50": 70,
+    "cit_absent": 53,
+    "answers_top10_share": 0.979
+   },
+   "local": {
+    "answers": 9,
+    "answers_top10": 9,
+    "citations": 39,
+    "cit_top10": 29,
+    "cit_11_20": 2,
+    "cit_21_50": 4,
+    "cit_absent": 4,
+    "answers_top10_share": 1.0
+   },
+   "navigational": {
+    "answers": 31,
+    "answers_top10": 31,
+    "citations": 88,
+    "cit_top10": 67,
+    "cit_11_20": 10,
+    "cit_21_50": 5,
+    "cit_absent": 6,
+    "answers_top10_share": 1.0
+   },
+   "purchase": {
+    "answers": 40,
+    "answers_top10": 39,
+    "citations": 134,
+    "cit_top10": 103,
+    "cit_11_20": 16,
+    "cit_21_50": 5,
+    "cit_absent": 10,
+    "answers_top10_share": 0.975
+   },
+   "recipe": {
+    "answers": 3,
+    "answers_top10": 3,
+    "citations": 16,
+    "cit_top10": 11,
+    "cit_11_20": 2,
+    "cit_21_50": 0,
+    "cit_absent": 3,
+    "answers_top10_share": 1.0
+   },
+   "symptom": {
+    "answers": 99,
+    "answers_top10": 95,
+    "citations": 627,
+    "cit_top10": 364,
+    "cit_11_20": 121,
+    "cit_21_50": 81,
+    "cit_absent": 61,
+    "answers_top10_share": 0.96
+   },
+   "tech": {
+    "answers": 83,
+    "answers_top10": 60,
+    "citations": 254,
+    "cit_top10": 119,
+    "cit_11_20": 53,
+    "cit_21_50": 19,
+    "cit_absent": 63,
+    "answers_top10_share": 0.723
+   },
+   "travel": {
+    "answers": 99,
+    "answers_top10": 99,
+    "citations": 720,
+    "cit_top10": 429,
+    "cit_11_20": 162,
+    "cit_21_50": 90,
+    "cit_absent": 39,
+    "answers_top10_share": 1.0
+   }
+  },
+  "top_domains": {
+   "youtube.com": {
+    "citations": 536,
+    "top10": 229,
+    "top10_share": 0.427
+   },
+   "reddit.com": {
+    "citations": 199,
+    "top10": 178,
+    "top10_share": 0.894
+   },
+   "facebook.com": {
+    "citations": 105,
+    "top10": 61,
+    "top10_share": 0.581
+   },
+   "my.clevelandclinic.org": {
+    "citations": 60,
+    "top10": 54,
+    "top10_share": 0.9
+   },
+   "quora.com": {
+    "citations": 43,
+    "top10": 30,
+    "top10_share": 0.698
+   },
+   "instagram.com": {
+    "citations": 40,
+    "top10": 13,
+    "top10_share": 0.325
+   },
+   "mayoclinic.org": {
+    "citations": 37,
+    "top10": 35,
+    "top10_share": 0.946
+   },
+   "homedepot.com": {
+    "citations": 37,
+    "top10": 21,
+    "top10_share": 0.568
+   },
+   "tripadvisor.com": {
+    "citations": 29,
+    "top10": 21,
+    "top10_share": 0.724
+   },
+   "travel.usnews.com": {
+    "citations": 25,
+    "top10": 22,
+    "top10_share": 0.88
+   },
+   "en.wikipedia.org": {
+    "citations": 24,
+    "top10": 15,
+    "top10_share": 0.625
+   },
+   "eventbrite.com": {
+    "citations": 24,
+    "top10": 23,
+    "top10_share": 0.958
+   },
+   "lonelyplanet.com": {
+    "citations": 24,
+    "top10": 8,
+    "top10_share": 0.333
+   },
+   "rtings.com": {
+    "citations": 23,
+    "top10": 18,
+    "top10_share": 0.783
+   },
+   "learn.microsoft.com": {
+    "citations": 22,
+    "top10": 10,
+    "top10_share": 0.455
+   }
+  }
+ },
+ "stability": {
+  "matched_queries": 1100,
+  "flips": {
+   "both": 712,
+   "appeared": 38,
+   "neither": 330,
+   "disappeared": 20
+  },
+  "per_intent": {
+   "comparison": {
+    "n": 100,
+    "both": 91,
+    "appeared": 5,
+    "disappeared": 0,
+    "neither": 4,
+    "rate_pass1": 0.91,
+    "rate_pass2": 0.96
+   },
+   "diy": {
+    "n": 100,
+    "both": 87,
+    "appeared": 3,
+    "disappeared": 1,
+    "neither": 9,
+    "rate_pass1": 0.88,
+    "rate_pass2": 0.9
+   },
+   "events": {
+    "n": 100,
+    "both": 80,
+    "appeared": 3,
+    "disappeared": 2,
+    "neither": 15,
+    "rate_pass1": 0.82,
+    "rate_pass2": 0.83
+   },
+   "howto": {
+    "n": 100,
+    "both": 92,
+    "appeared": 1,
+    "disappeared": 1,
+    "neither": 6,
+    "rate_pass1": 0.93,
+    "rate_pass2": 0.93
+   },
+   "informational": {
+    "n": 100,
+    "both": 98,
+    "appeared": 0,
+    "disappeared": 0,
+    "neither": 2,
+    "rate_pass1": 0.98,
+    "rate_pass2": 0.98
+   },
+   "local": {
+    "n": 100,
+    "both": 7,
+    "appeared": 3,
+    "disappeared": 1,
+    "neither": 89,
+    "rate_pass1": 0.08,
+    "rate_pass2": 0.1
+   },
+   "navigational": {
+    "n": 100,
+    "both": 22,
+    "appeared": 9,
+    "disappeared": 5,
+    "neither": 64,
+    "rate_pass1": 0.27,
+    "rate_pass2": 0.31
+   },
+   "purchase": {
+    "n": 100,
+    "both": 35,
+    "appeared": 10,
+    "disappeared": 7,
+    "neither": 48,
+    "rate_pass1": 0.42,
+    "rate_pass2": 0.45
+   },
+   "recipe": {
+    "n": 100,
+    "both": 1,
+    "appeared": 3,
+    "disappeared": 3,
+    "neither": 93,
+    "rate_pass1": 0.04,
+    "rate_pass2": 0.04
+   },
+   "symptom": {
+    "n": 100,
+    "both": 100,
+    "appeared": 0,
+    "disappeared": 0,
+    "neither": 0,
+    "rate_pass1": 1.0,
+    "rate_pass2": 1.0
+   },
+   "tech": {
+    "n": 100,
+    "both": 99,
+    "appeared": 1,
+    "disappeared": 0,
+    "neither": 0,
+    "rate_pass1": 0.99,
+    "rate_pass2": 1.0
+   }
+  },
+  "source_churn": {
+   "answers_with_sources_both_passes": 666,
+   "median_jaccard": 0.444,
+   "median_retained_share": 0.6,
+   "replaced_over_half": 193,
+   "replaced_over_half_share": 0.29,
+   "zero_common_sources": 16,
+   "zero_common_share": 0.024,
+   "median_jaccard_per_intent": {
+    "comparison": 0.571,
+    "diy": 0.4,
+    "events": 0.333,
+    "howto": 0.429,
+    "informational": 0.444,
+    "local": 0.4,
+    "navigational": 0.667,
+    "purchase": 0.333,
+    "recipe": 0.6,
+    "symptom": 0.417,
+    "tech": 0.4
+   }
+  }
+ },
+ "travel": {
+  "n": 100,
+  "aio_rate": 0.99,
+  "feature_rates": {
+   "featured_snippet": 0.0,
+   "paa": 1.0,
+   "knowledge_graph": 0.01,
+   "local_results": 0.0,
+   "videos": 0.03,
+   "discussions": 0.08,
+   "perspectives": 0.34,
+   "shopping": 0.0,
+   "immersive_products": 0.0
+  },
+  "answers_with_sources": 99,
+  "top_cited": {
+   "youtube.com": 57,
+   "reddit.com": 46,
+   "facebook.com": 37,
+   "tripadvisor.com": 28,
+   "travel.usnews.com": 25,
+   "lonelyplanet.com": 24,
+   "instagram.com": 21,
+   "ricksteves.com": 8,
+   "quora.com": 8,
+   "getyourguide.com": 7
+  }
+ }
+}

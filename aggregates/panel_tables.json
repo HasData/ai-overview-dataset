@@ -1,0 +1,776 @@
+{
+ "n": 1100,
+ "buckets": {
+  "symptom": {
+   "n": 100,
+   "aio_pct": 100.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 100.0,
+   "knowledge_graph_pct": 0.0,
+   "local_results_pct": 0.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 27.0,
+   "discussions_pct": 41.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 4.0
+  },
+  "tech": {
+   "n": 100,
+   "aio_pct": 99.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 100.0,
+   "knowledge_graph_pct": 0.0,
+   "local_results_pct": 0.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 97.0,
+   "discussions_pct": 17.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 47.0
+  },
+  "howto": {
+   "n": 100,
+   "aio_pct": 93.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 98.0,
+   "knowledge_graph_pct": 0.0,
+   "local_results_pct": 0.0,
+   "recipes_pct": 2.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 79.0,
+   "discussions_pct": 21.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 46.0
+  },
+  "diy": {
+   "n": 100,
+   "aio_pct": 88.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 100.0,
+   "knowledge_graph_pct": 1.0,
+   "local_results_pct": 9.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 9.0,
+   "videos_pct": 87.0,
+   "discussions_pct": 31.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 39.0
+  },
+  "informational": {
+   "n": 100,
+   "aio_pct": 98.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 95.0,
+   "knowledge_graph_pct": 0.0,
+   "local_results_pct": 0.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 60.0,
+   "discussions_pct": 6.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 27.0
+  },
+  "navigational": {
+   "n": 100,
+   "aio_pct": 27.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 47.0,
+   "knowledge_graph_pct": 2.0,
+   "local_results_pct": 2.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 4.0,
+   "discussions_pct": 0.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 28.0
+  },
+  "local": {
+   "n": 100,
+   "aio_pct": 8.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 84.0,
+   "knowledge_graph_pct": 0.0,
+   "local_results_pct": 99.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 1.0,
+   "discussions_pct": 4.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 19.0
+  },
+  "events": {
+   "n": 100,
+   "aio_pct": 82.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 95.0,
+   "knowledge_graph_pct": 2.0,
+   "local_results_pct": 40.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 1.0,
+   "discussions_pct": 4.0,
+   "events_results_pct": 29.0,
+   "perspectives_pct": 10.0
+  },
+  "purchase": {
+   "n": 100,
+   "aio_pct": 42.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 93.0,
+   "knowledge_graph_pct": 1.0,
+   "local_results_pct": 36.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 89.0,
+   "videos_pct": 19.0,
+   "discussions_pct": 13.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 51.0
+  },
+  "comparison": {
+   "n": 100,
+   "aio_pct": 91.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 100.0,
+   "knowledge_graph_pct": 0.0,
+   "local_results_pct": 0.0,
+   "recipes_pct": 0.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 68.0,
+   "discussions_pct": 37.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 46.0
+  },
+  "recipe": {
+   "n": 100,
+   "aio_pct": 4.0,
+   "featured_snippet_pct": 0.0,
+   "paa_pct": 100.0,
+   "knowledge_graph_pct": 1.0,
+   "local_results_pct": 2.0,
+   "recipes_pct": 98.0,
+   "shopping_pct": 0.0,
+   "inline_shopping_pct": 0.0,
+   "immersive_products_pct": 0.0,
+   "videos_pct": 11.0,
+   "discussions_pct": 0.0,
+   "events_results_pct": 0.0,
+   "perspectives_pct": 53.0
+  }
+ },
+ "citations": {
+  "answers_with_sources": 723,
+  "sources_mean": 5.0,
+  "sources_median": 5,
+  "unique_domains": 1122,
+  "top_domains": [
+   [
+    "youtube.com",
+    522
+   ],
+   [
+    "reddit.com",
+    178
+   ],
+   [
+    "facebook.com",
+    77
+   ],
+   [
+    "my.clevelandclinic.org",
+    64
+   ],
+   [
+    "homedepot.com",
+    53
+   ],
+   [
+    "learn.microsoft.com",
+    52
+   ],
+   [
+    "mayoclinic.org",
+    48
+   ],
+   [
+    "quora.com",
+    45
+   ],
+   [
+    "lowes.com",
+    39
+   ],
+   [
+    "support.microsoft.com",
+    33
+   ],
+   [
+    "eventbrite.com",
+    33
+   ],
+   [
+    "webmd.com",
+    29
+   ],
+   [
+    "ubiehealth.com",
+    23
+   ],
+   [
+    "en.wikipedia.org",
+    23
+   ],
+   [
+    "instructables.com",
+    23
+   ],
+   [
+    "healthline.com",
+    22
+   ],
+   [
+    "instagram.com",
+    22
+   ],
+   [
+    "rtings.com",
+    21
+   ],
+   [
+    "summithealth.com",
+    20
+   ],
+   [
+    "nhs.uk",
+    19
+   ],
+   [
+    "health.harvard.edu",
+    17
+   ],
+   [
+    "tiktok.com",
+    16
+   ],
+   [
+    "britannica.com",
+    16
+   ],
+   [
+    "austintexas.org",
+    16
+   ],
+   [
+    "medium.com",
+    15
+   ],
+   [
+    "healthdirect.gov.au",
+    13
+   ],
+   [
+    "dell.com",
+    13
+   ],
+   [
+    "hp.com",
+    13
+   ],
+   [
+    "support.hp.com",
+    13
+   ],
+   [
+    "visioncomputers.com",
+    13
+   ]
+  ],
+  "by_bucket": {
+   "symptom": [
+    [
+     "my.clevelandclinic.org",
+     57
+    ],
+    [
+     "youtube.com",
+     54
+    ],
+    [
+     "mayoclinic.org",
+     47
+    ],
+    [
+     "webmd.com",
+     29
+    ],
+    [
+     "ubiehealth.com",
+     23
+    ],
+    [
+     "healthline.com",
+     22
+    ],
+    [
+     "summithealth.com",
+     20
+    ],
+    [
+     "health.harvard.edu",
+     17
+    ],
+    [
+     "nhs.uk",
+     16
+    ],
+    [
+     "healthdirect.gov.au",
+     12
+    ]
+   ],
+   "tech": [
+    [
+     "youtube.com",
+     93
+    ],
+    [
+     "learn.microsoft.com",
+     52
+    ],
+    [
+     "support.microsoft.com",
+     33
+    ],
+    [
+     "reddit.com",
+     29
+    ],
+    [
+     "dell.com",
+     13
+    ],
+    [
+     "hp.com",
+     13
+    ],
+    [
+     "support.hp.com",
+     13
+    ],
+    [
+     "visioncomputers.com",
+     13
+    ],
+    [
+     "justanswer.com",
+     10
+    ],
+    [
+     "quora.com",
+     10
+    ]
+   ],
+   "howto": [
+    [
+     "youtube.com",
+     91
+    ],
+    [
+     "reddit.com",
+     33
+    ],
+    [
+     "facebook.com",
+     11
+    ],
+    [
+     "instructables.com",
+     11
+    ],
+    [
+     "homedepot.com",
+     8
+    ],
+    [
+     "artofmanliness.com",
+     8
+    ],
+    [
+     "indeed.com",
+     6
+    ],
+    [
+     "careerservices.fas.harvard.edu",
+     5
+    ],
+    [
+     "recipetineats.com",
+     5
+    ],
+    [
+     "turnerchevrolet.com",
+     5
+    ]
+   ],
+   "diy": [
+    [
+     "youtube.com",
+     83
+    ],
+    [
+     "homedepot.com",
+     44
+    ],
+    [
+     "lowes.com",
+     34
+    ],
+    [
+     "reddit.com",
+     29
+    ],
+    [
+     "instructables.com",
+     10
+    ],
+    [
+     "quora.com",
+     10
+    ],
+    [
+     "facebook.com",
+     8
+    ],
+    [
+     "benjaminmoore.com",
+     6
+    ],
+    [
+     "angi.com",
+     6
+    ],
+    [
+     "thespruce.com",
+     4
+    ]
+   ],
+   "informational": [
+    [
+     "youtube.com",
+     86
+    ],
+    [
+     "en.wikipedia.org",
+     19
+    ],
+    [
+     "britannica.com",
+     16
+    ],
+    [
+     "investopedia.com",
+     12
+    ],
+    [
+     "facebook.com",
+     11
+    ],
+    [
+     "reddit.com",
+     10
+    ],
+    [
+     "ncbi.nlm.nih.gov",
+     10
+    ],
+    [
+     "education.nationalgeographic.org",
+     8
+    ],
+    [
+     "science.nasa.gov",
+     8
+    ],
+    [
+     "un.org",
+     8
+    ]
+   ],
+   "navigational": [
+    [
+     "apps.apple.com",
+     11
+    ],
+    [
+     "play.google.com",
+     9
+    ],
+    [
+     "youtube.com",
+     7
+    ],
+    [
+     "walmart.com",
+     3
+    ],
+    [
+     "delta.com",
+     3
+    ],
+    [
+     "fedex.com",
+     3
+    ],
+    [
+     "amazon.com",
+     2
+    ],
+    [
+     "help.instagram.com",
+     2
+    ],
+    [
+     "paypal.com",
+     2
+    ],
+    [
+     "help.dropbox.com",
+     2
+    ]
+   ],
+   "local": [
+    [
+     "reddit.com",
+     4
+    ],
+    [
+     "austin.eater.com",
+     1
+    ],
+    [
+     "favoritepizzaaustin.com",
+     1
+    ],
+    [
+     "locations.pizzahut.com",
+     1
+    ],
+    [
+     "m.yelp.com",
+     1
+    ],
+    [
+     "thepizzapress.com",
+     1
+    ],
+    [
+     "palmscarwash.com",
+     1
+    ],
+    [
+     "washarooatx.com",
+     1
+    ],
+    [
+     "whitewatercw.com",
+     1
+    ],
+    [
+     "insiderx.com",
+     1
+    ]
+   ],
+   "events": [
+    [
+     "eventbrite.com",
+     33
+    ],
+    [
+     "facebook.com",
+     20
+    ],
+    [
+     "austintexas.org",
+     16
+    ],
+    [
+     "do512.com",
+     12
+    ],
+    [
+     "instagram.com",
+     10
+    ],
+    [
+     "bandsintown.com",
+     9
+    ],
+    [
+     "ticketmaster.com",
+     8
+    ],
+    [
+     "google.com",
+     5
+    ],
+    [
+     "jambase.com",
+     4
+    ],
+    [
+     "seatgeek.com",
+     4
+    ]
+   ],
+   "purchase": [
+    [
+     "youtube.com",
+     18
+    ],
+    [
+     "rtings.com",
+     7
+    ],
+    [
+     "reddit.com",
+     7
+    ],
+    [
+     "bestbuy.com",
+     4
+    ],
+    [
+     "forbes.com",
+     3
+    ],
+    [
+     "bonappetit.com",
+     3
+    ],
+    [
+     "cnet.com",
+     3
+    ],
+    [
+     "pcmag.com",
+     3
+    ],
+    [
+     "outdoorgearlab.com",
+     3
+    ],
+    [
+     "nytimes.com",
+     2
+    ]
+   ],
+   "comparison": [
+    [
+     "youtube.com",
+     86
+    ],
+    [
+     "reddit.com",
+     61
+    ],
+    [
+     "facebook.com",
+     19
+    ],
+    [
+     "quora.com",
+     18
+    ],
+    [
+     "rtings.com",
+     14
+    ],
+    [
+     "tiktok.com",
+     12
+    ],
+    [
+     "medium.com",
+     9
+    ],
+    [
+     "soundguys.com",
+     7
+    ],
+    [
+     "whathifi.com",
+     7
+    ],
+    [
+     "seriouseats.com",
+     6
+    ]
+   ],
+   "recipe": [
+    [
+     "youtube.com",
+     4
+    ],
+    [
+     "thekitchn.com",
+     2
+    ],
+    [
+     "feelgoodfoodie.net",
+     2
+    ],
+    [
+     "billyparisi.com",
+     1
+    ],
+    [
+     "sipandfeast.com",
+     1
+    ],
+    [
+     "southernkitchen.com",
+     1
+    ],
+    [
+     "spendwithpennies.com",
+     1
+    ],
+    [
+     "finedininglovers.com",
+     1
+    ],
+    [
+     "lecremedelacrumb.com",
+     1
+    ],
+    [
+     "tastesbetterfromscratch.com",
+     1
+    ]
+   ]
+  },
+  "fs_and_aio": 0,
+  "fs_cocited": 0,
+  "fs_cocited_pct": null
+ }
+}

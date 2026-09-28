@@ -1,0 +1,142 @@
+{
+ "answers": 193,
+ "with_refs": 187,
+ "refs_mean": 9.9,
+ "refs_median": 10,
+ "top_domains": [
+  [
+   "youtube.com",
+   135
+  ],
+  [
+   "reddit.com",
+   86
+  ],
+  [
+   "scrapingbee.com",
+   83
+  ],
+  [
+   "brightdata.com",
+   56
+  ],
+  [
+   "github.com",
+   54
+  ],
+  [
+   "stackoverflow.com",
+   48
+  ],
+  [
+   "medium.com",
+   37
+  ],
+  [
+   "scrape.do",
+   30
+  ],
+  [
+   "dev.to",
+   27
+  ],
+  [
+   "scraperapi.com",
+   27
+  ],
+  [
+   "geeksforgeeks.org",
+   26
+  ],
+  [
+   "apify.com",
+   26
+  ],
+  [
+   "iproyal.com",
+   26
+  ],
+  [
+   "serpapi.com",
+   22
+  ],
+  [
+   "firecrawl.dev",
+   21
+  ],
+  [
+   "olostep.com",
+   19
+  ],
+  [
+   "scrapeops.io",
+   15
+  ],
+  [
+   "browserless.io",
+   13
+  ],
+  [
+   "webshare.io",
+   12
+  ],
+  [
+   "crawlbase.com",
+   12
+  ],
+  [
+   "oxylabs.io",
+   11
+  ],
+  [
+   "freecodecamp.org",
+   11
+  ],
+  [
+   "thunderbit.com",
+   11
+  ],
+  [
+   "chromewebstore.google.com",
+   11
+  ],
+  [
+   "pypi.org",
+   11
+  ]
+ ],
+ "hasdata_cited_queries": 5,
+ "hasdata_refs": [
+  {
+   "query": "scraping job postings python",
+   "refs": [
+    "https://dev.to/hasdata_com/building-a-production-ready-job-board-scraper-with-python-pgd"
+   ]
+  },
+  {
+   "query": "price scraping python",
+   "refs": [
+    "https://github.com/HasData/ecommerce-price-scraper"
+   ]
+  },
+  {
+   "query": "python web scraping prices",
+   "refs": [
+    "https://github.com/HasData/ecommerce-price-scraper"
+   ]
+  },
+  {
+   "query": "how to scrape a website that requires login with python",
+   "refs": [
+    "https://dev.to/hasdata_com/how-to-scrape-a-website-that-requires-login-with-python-50pa"
+   ]
+  },
+  {
+   "query": "tiktok scraper python",
+   "refs": [
+    "https://github.com/HasData/tiktok-scraping",
+    "https://dev.to/hasdata_com/scraping-tiktok-profiles-and-videos-with-python-part-1-4o8i"
+   ]
+  }
+ ]
+}
