@@ -4,11 +4,11 @@
 
 ![HasData, the SERP API company behind this study](banner.png)
 
-Data behind [Google AI Overview Study](https://hasdata.com/blog/google-ai-overview-study), a HasData measurement of when Google shows an AI Overview and whom it cites. The core panel is 1,100 queries, 100 per intent bucket across 11 buckets, and an AI Overview appeared on 66.5% of them (732 of 1,100). A second pass re-ran the 1,100 queries with organic results captured and added a 100-query `travel` bucket, 1,200 rows in all, so citation position can be checked against ranking.
+Data behind [Google AI Overview Study](https://hasdata.com/blog/google-ai-overview-study?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme), a HasData measurement of when Google shows an AI Overview and whom it cites. The core panel is 1,100 queries, 100 per intent bucket across 11 buckets, and an AI Overview appeared on 66.5% of them (732 of 1,100). A second pass re-ran the 1,100 queries with organic results captured and added a 100-query `travel` bucket, 1,200 rows in all, so citation position can be checked against ranking.
 
 ![Dumbbell chart comparing AI Overview trigger rates by intent between the 2025 study and the 2026 panel](charts/aio-rates-2025-vs-2026.svg)
 
-The year-over-year chart above is the study's frame, since per-intent trigger rates moved hard between the 2025 run and this panel. The rows behind the 2026 dots are in `data/`, and the 2025 rates come from the study's earlier run, published in the same [article](https://hasdata.com/blog/google-ai-overview-study).
+The year-over-year chart above is the study's frame, since per-intent trigger rates moved hard between the 2025 run and this panel. The rows behind the 2026 dots are in `data/`, and the 2025 rates come from the study's earlier run, published in the same [article](https://hasdata.com/blog/google-ai-overview-study?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme).
 
 ## Table of Contents
 
@@ -43,13 +43,13 @@ The two panels join on `query`, since all 1,100 core queries reappear in the sec
 
 ## Method
 
-Queries were sent through the [HasData SERP API](https://hasdata.com/apis/google-serp-api) from one pipeline, US desktop settings, and each response was parsed for the AI Overview block, its source list, and every other SERP feature. The collection scripts (`aio_panel.py`, `organic_panel.py`, `site_study.py`) read the API key from the `HASDATA_API_KEY` environment variable and write to `method/out/`. `vertical_citations.py` makes no API calls, it aggregates per-article audit data collected outside this repo, so its output ships here as data only. The `analyze_*.py` scripts turn the panels into the aggregate tables.
+Queries were sent through the [HasData SERP API](https://hasdata.com/apis/google-serp-api?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme) from one pipeline, US desktop settings, and each response was parsed for the AI Overview block, its source list, and every other SERP feature. The collection scripts (`aio_panel.py`, `organic_panel.py`, `site_study.py`) read the API key from the `HASDATA_API_KEY` environment variable and write to `method/out/`. `vertical_citations.py` makes no API calls, it aggregates per-article audit data collected outside this repo, so its output ships here as data only. The `analyze_*.py` scripts turn the panels into the aggregate tables.
 
-The study's findings and charts are in the [article](https://hasdata.com/blog/google-ai-overview-study), and every headline number traces to a row set in these files. `charts/aio-position-odds.svg` plots the second pass's citation odds by organic position, built from `aggregates/position_odds.json`.
+The study's findings and charts are in the [article](https://hasdata.com/blog/google-ai-overview-study?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme), and every headline number traces to a row set in these files. `charts/aio-position-odds.svg` plots the second pass's citation odds by organic position, built from `aggregates/position_odds.json`.
 
 ## License
 
-The dataset is released under [CC BY 4.0](LICENSE). You can copy, share, and adapt it, including commercially, as long as you credit HasData with a link to [hasdata.com](https://hasdata.com) or the [study](https://hasdata.com/blog/google-ai-overview-study).
+The dataset is released under [CC BY 4.0](LICENSE). You can copy, share, and adapt it, including commercially, as long as you credit HasData with a link to [hasdata.com](https://hasdata.com?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme) or the [study](https://hasdata.com/blog/google-ai-overview-study?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme).
 
 ## How to Cite
 
@@ -72,9 +72,9 @@ GitHub's "Cite this repository" button in the sidebar gives the same reference i
 
 ## Disclaimer
 
-The data comes from search result pages collected for research. Whether and how such collection is appropriate depends on jurisdiction and use, and nothing in this repository is legal advice. [Is Web Scraping Legal?](https://hasdata.com/blog/is-web-scraping-legal) covers how we think about the question.
+The data comes from search result pages collected for research. Whether and how such collection is appropriate depends on jurisdiction and use, and nothing in this repository is legal advice. [Is Web Scraping Legal?](https://hasdata.com/blog/is-web-scraping-legal?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme) covers how we think about the question.
 
 ## More Resources
 
-- [Google AI Overview Study](https://hasdata.com/blog/google-ai-overview-study), the study this data belongs to
-- [SERP History](https://hasdata.com/blog/serp-history), a related look at how result pages change over time
+- [Google AI Overview Study](https://hasdata.com/blog/google-ai-overview-study?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme), the study this data belongs to
+- [SERP History](https://hasdata.com/blog/serp-history?utm_source=github&utm_medium=syndication&utm_campaign=google-ai-overview-study&utm_content=ai-overview-dataset-readme), a related look at how result pages change over time
