@@ -1,5 +1,7 @@
 # Google AI Overview Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23101610.svg)](https://doi.org/10.5281/zenodo.23101610)
+
 ![HasData, the SERP API company behind this study](banner.png)
 
 Data behind [Google AI Overview Study](https://hasdata.com/blog/google-ai-overview-study), a HasData measurement of when Google shows an AI Overview and whom it cites. The core panel is 1,100 queries, 100 per intent bucket across 11 buckets, and an AI Overview appeared on 66.5% of them (732 of 1,100). A second pass re-ran the 1,100 queries with organic results captured and added a 100-query `travel` bucket, 1,200 rows in all, so citation position can be checked against ranking.
@@ -14,6 +16,7 @@ The year-over-year chart above is the study's frame, since per-intent trigger ra
 - [Schemas](#schemas)
 - [Method](#method)
 - [License](#license)
+- [How to Cite](#how-to-cite)
 - [Disclaimer](#disclaimer)
 - [More Resources](#more-resources)
 
@@ -47,6 +50,25 @@ The study's findings and charts are in the [article](https://hasdata.com/blog/go
 ## License
 
 The dataset is released under [CC BY 4.0](LICENSE). You can copy, share, and adapt it, including commercially, as long as you credit HasData with a link to [hasdata.com](https://hasdata.com) or the [study](https://hasdata.com/blog/google-ai-overview-study).
+
+## How to Cite
+
+Every GitHub release of this repository is archived on Zenodo. The DOI below always resolves to the latest release, and each release also carries its own DOI on the [Zenodo record](https://doi.org/10.5281/zenodo.23101610) when a citation has to point at one exact version.
+
+> HasData. (2026). *Google AI Overview Dataset* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23101610
+
+```bibtex
+@dataset{hasdata_google_ai_overview_dataset,
+  author    = {{HasData}},
+  title     = {Google AI Overview Dataset},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23101610},
+  url       = {https://doi.org/10.5281/zenodo.23101610}
+}
+```
+
+GitHub's "Cite this repository" button in the sidebar gives the same reference in APA and BibTeX.
 
 ## Disclaimer
 

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Google AI Overview Dataset"
+authors:
+  - name: "HasData"
+doi: 10.5281/zenodo.23101610
+url: "https://hasdata.com/blog/google-ai-overview-study"
+repository-code: "https://github.com/HasData/ai-overview-dataset"
+license: CC-BY-4.0
+keywords:
+  - "Google AI Overviews"
+  - "search engine results pages"
+  - "SERP features"
+  - "AI search citations"
+  - "generative engine optimization"
