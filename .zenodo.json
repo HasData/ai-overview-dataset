@@ -1,0 +1,29 @@
+{
+  "upload_type": "dataset",
+  "title": "Google AI Overview Dataset",
+  "description": "<p>Data behind the <a href=\"https://hasdata.com/blog/google-ai-overview-study\">Google AI Overview Study</a>, a HasData measurement of when Google shows an AI Overview and which sources it cites.</p><p>The core panel is 1,100 queries, 100 per intent bucket across 11 buckets (symptom, tech, howto, diy, informational, navigational, local, events, purchase, comparison, recipe). An AI Overview appeared on 732 of them (66.5%). A second pass re-ran the 1,100 queries with organic results captured and added a 100-query travel bucket, 1,200 rows in all, so citation position can be compared with organic ranking.</p><p>Queries were collected through the HasData SERP API with US desktop settings. Each row carries the AI Overview flag, the cited domains and flags for the other SERP features. The repository also holds a 113-domain niche-site slice, citation counts by content vertical, the derived aggregate tables, and the collection and analysis scripts.</p>",
+  "creators": [
+    {
+      "name": "HasData"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "Google AI Overviews",
+    "search engine results pages",
+    "SERP features",
+    "AI search citations",
+    "generative engine optimization",
+    "search engine optimization"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://hasdata.com/blog/google-ai-overview-study",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "url"
+    }
+  ]
+}
