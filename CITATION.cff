@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it as below."
+message: "If you use these findings, please cite the HasData study as below."
 type: dataset
 title: "Google AI Overview Dataset"
 authors:
@@ -14,3 +14,12 @@ keywords:
   - "SERP features"
   - "AI search citations"
   - "generative engine optimization"
+preferred-citation:
+  type: blog
+  title: "Google AI Overview Data by Search Intent (2025 vs 2026)"
+  authors:
+    - name: "HasData"
+  publisher:
+    name: "HasData"
+  year: 2026
+  url: "https://hasdata.com/blog/google-ai-overview-study"

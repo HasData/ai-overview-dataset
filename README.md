@@ -53,22 +53,20 @@ The dataset is released under [CC BY 4.0](LICENSE). You can copy, share, and ada
 
 ## How to Cite
 
-Every GitHub release of this repository is archived on Zenodo. The DOI below always resolves to the latest release, and each release also carries its own DOI on the [Zenodo record](https://doi.org/10.5281/zenodo.23101610) when a citation has to point at one exact version.
+Cite the study when you use its findings.
 
-> HasData. (2026). *Google AI Overview Dataset* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23101610
+> HasData. (2026). *Google AI Overview Data by Search Intent (2025 vs 2026)*. HasData. https://hasdata.com/blog/google-ai-overview-study
 
 ```bibtex
-@dataset{hasdata_google_ai_overview_dataset,
-  author    = {{HasData}},
-  title     = {Google AI Overview Dataset},
-  year      = {2026},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23101610},
-  url       = {https://doi.org/10.5281/zenodo.23101610}
+@misc{hasdata_google_ai_overview_study,
+  author       = {{HasData}},
+  title        = {Google AI Overview Data by Search Intent (2025 vs 2026)},
+  year         = {2026},
+  howpublished = {\url{https://hasdata.com/blog/google-ai-overview-study}}
 }
 ```
 
-GitHub's "Cite this repository" button in the sidebar gives the same reference in APA and BibTeX.
+Every GitHub release of this repository is also archived on Zenodo, for work that has to point at the exact files it used. The DOI 10.5281/zenodo.23101610 always resolves to the latest release, and the [Zenodo record](https://doi.org/10.5281/zenodo.23101610) lists a separate DOI for each version. GitHub's "Cite this repository" button in the sidebar gives the study reference in APA and BibTeX.
 
 ## Disclaimer
 
